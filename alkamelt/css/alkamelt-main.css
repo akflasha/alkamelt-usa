@@ -1,0 +1,5146 @@
+.btn {
+  border-width: 2px;
+}
+
+body {
+  font-family: Jost;
+}
+
+.alkamelt-show1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+.alkamelt-show1>.alkamelt-iconfont {
+  font-size: 5rem;
+}
+
+.alkamelt-show2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.6rem;
+  line-height: 1.1;
+}
+
+.alkamelt-show2>.alkamelt-iconfont {
+  font-size: 3.25rem;
+}
+
+.alkamelt-show4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.alkamelt-show4>.alkamelt-iconfont {
+  font-size: 1.75rem;
+}
+
+.alkamelt-show5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.alkamelt-show5>.alkamelt-iconfont {
+  font-size: 2.25rem;
+}
+
+.alkamelt-show7 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.alkamelt-show7>.alkamelt-iconfont {
+  font-size: 1.75rem;
+}
+
+/* fix the scroll (e.g., 90px) */
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 90px;
+}
+
+/* 80px = header height */
+
+
+.fix-image-wrap-bonus-img {
+  max-width: 200px;
+  /* or any width you want */
+  width: 100%;
+  margin: 0 auto;
+  /* centers it inside parent */
+  display: block;
+  /* ensures it behaves like a block element */
+}
+
+@media (max-width: 992px) {
+  .alkamelt-show1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .alkamelt-show1 {
+    font-size: 2.8rem;
+    font-size: calc(2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(1.1 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+  }
+
+  .alkamelt-show2 {
+    font-size: 2.08rem;
+    font-size: calc(1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(1.3 * (1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20))));
+  }
+
+  .alkamelt-show4 {
+    font-size: 1.12rem;
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+  }
+
+  .alkamelt-show5 {
+    font-size: 1.44rem;
+    font-size: calc(1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+  }
+
+  .alkamelt-show7 {
+    font-size: 1.12rem;
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+  }
+}
+
+/* Buttons */
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+
+.btn-sm {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+
+.btn-md {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+
+.btn-lg {
+  padding: 1rem 2.6rem;
+  border-radius: 4px;
+}
+
+.bg-primary {
+  background-color: #6592e6 !important;
+}
+
+.bg-success {
+  background-color: #ffffff !important;
+}
+
+.bg-info {
+  background-color: #ffffff !important;
+}
+
+.bg-warning {
+  background-color: #ffe800 !important;
+}
+
+.bg-danger {
+  background-color: #ff9966 !important;
+}
+
+.btn-primary,
+.btn-primary:active {
+  background-color: #6592e6 !important;
+  border-color: #6592e6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: #ffffff !important;
+  background-color: #2260d2 !important;
+  border-color: #2260d2 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #ffffff !important;
+  background-color: #2260d2 !important;
+  border-color: #2260d2 !important;
+}
+
+.btn-secondary,
+.btn-secondary:active {
+  background-color: #fd305c !important;
+  border-color: #fd305c !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+  color: #ffffff !important;
+  background-color: #d4022f !important;
+  border-color: #d4022f !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  color: #ffffff !important;
+  background-color: #d4022f !important;
+  border-color: #d4022f !important;
+}
+
+.btn-info,
+.btn-info:active {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #808080 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info.active {
+  color: #545454 !important;
+  background-color: #d4d4d4 !important;
+  border-color: #d4d4d4 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+  color: #808080 !important;
+  background-color: #d4d4d4 !important;
+  border-color: #d4d4d4 !important;
+}
+
+.btn-success,
+.btn-success:active {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #808080 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success.active {
+  color: #545454 !important;
+  background-color: #d4d4d4 !important;
+  border-color: #d4d4d4 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+  color: #808080 !important;
+  background-color: #d4d4d4 !important;
+  border-color: #d4d4d4 !important;
+}
+
+.btn-warning,
+.btn-warning:active {
+  background-color: #ffe800 !important;
+  border-color: #ffe800 !important;
+  color: #000000 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning.active {
+  color: #000000 !important;
+  background-color: #fffb00 !important;
+  border-color: #a89900 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+  color: #000000 !important;
+  background-color: #a89900 !important;
+  border-color: #a89900 !important;
+}
+
+.btn-danger,
+.btn-danger:active {
+  background-color: #ff9966 !important;
+  border-color: #ff9966 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger.active {
+  color: #ffffff !important;
+  background-color: #ff5f0f !important;
+  border-color: #ff5f0f !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-danger.disabled,
+.btn-danger:disabled {
+  color: #ffffff !important;
+  background-color: #ff5f0f !important;
+  border-color: #ff5f0f !important;
+}
+
+.btn-white,
+.btn-white:active {
+  background-color: #fafafa !important;
+  border-color: #fafafa !important;
+  color: #7a7a7a !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white.focus,
+.btn-white.active {
+  color: #4f4f4f !important;
+  background-color: #cfcfcf !important;
+  border-color: #cfcfcf !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-white.disabled,
+.btn-white:disabled {
+  color: #7a7a7a !important;
+  background-color: #cfcfcf !important;
+  border-color: #cfcfcf !important;
+}
+
+.btn-black,
+.btn-black:active {
+  background-color: #232323 !important;
+  border-color: #232323 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-black:hover,
+.btn-black:focus,
+.btn-black.focus,
+.btn-black.active {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-black.disabled,
+.btn-black:disabled {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.btn-primary-outline,
+.btn-primary-outline:active {
+  background-color: transparent !important;
+  border-color: #6592e6;
+  color: #6592e6;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline.focus,
+.btn-primary-outline.active {
+  color: #2260d2 !important;
+  background-color: transparent !important;
+  border-color: #2260d2 !important;
+  box-shadow: none !important;
+}
+
+.btn-primary-outline.disabled,
+.btn-primary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #6592e6 !important;
+  border-color: #6592e6 !important;
+}
+
+.btn-secondary-outline,
+.btn-secondary-outline:active {
+  background-color: transparent !important;
+  border-color: #fd305c;
+  color: #fd305c;
+}
+
+.btn-secondary-outline:hover,
+.btn-secondary-outline:focus,
+.btn-secondary-outline.focus,
+.btn-secondary-outline.active {
+  color: #d4022f !important;
+  background-color: transparent !important;
+  border-color: #d4022f !important;
+  box-shadow: none !important;
+}
+
+.btn-secondary-outline.disabled,
+.btn-secondary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #fd305c !important;
+  border-color: #fd305c !important;
+}
+
+.btn-info-outline,
+.btn-info-outline:active {
+  background-color: transparent !important;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-info-outline:hover,
+.btn-info-outline:focus,
+.btn-info-outline.focus,
+.btn-info-outline.active {
+  color: #d4d4d4 !important;
+  background-color: transparent !important;
+  border-color: #d4d4d4 !important;
+  box-shadow: none !important;
+}
+
+.btn-info-outline.disabled,
+.btn-info-outline:disabled {
+  color: #808080 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.btn-success-outline,
+.btn-success-outline:active {
+  background-color: transparent !important;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline.focus,
+.btn-success-outline.active {
+  color: #d4d4d4 !important;
+  background-color: transparent !important;
+  border-color: #d4d4d4 !important;
+  box-shadow: none !important;
+}
+
+.btn-success-outline.disabled,
+.btn-success-outline:disabled {
+  color: #808080 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.btn-warning-outline,
+.btn-warning-outline:active {
+  background-color: transparent !important;
+  border-color: #ffe800;
+  color: #ffe800;
+}
+
+.btn-warning-outline:hover,
+.btn-warning-outline:focus,
+.btn-warning-outline.focus,
+.btn-warning-outline.active {
+  color: #a89900 !important;
+  background-color: transparent !important;
+  border-color: #a89900 !important;
+  box-shadow: none !important;
+}
+
+.btn-warning-outline.disabled,
+.btn-warning-outline:disabled {
+  color: #000000 !important;
+  background-color: #ffe800 !important;
+  border-color: #ffe800 !important;
+}
+
+.btn-danger-outline,
+.btn-danger-outline:active {
+  background-color: transparent !important;
+  border-color: #ff9966;
+  color: #ff9966;
+}
+
+.btn-danger-outline:hover,
+.btn-danger-outline:focus,
+.btn-danger-outline.focus,
+.btn-danger-outline.active {
+  color: #ff5f0f !important;
+  background-color: transparent !important;
+  border-color: #ff5f0f !important;
+  box-shadow: none !important;
+}
+
+.btn-danger-outline.disabled,
+.btn-danger-outline:disabled {
+  color: #ffffff !important;
+  background-color: #ff9966 !important;
+  border-color: #ff9966 !important;
+}
+
+.btn-black-outline,
+.btn-black-outline:active {
+  background-color: transparent !important;
+  border-color: #232323;
+  color: #232323;
+}
+
+.btn-black-outline:hover,
+.btn-black-outline:focus,
+.btn-black-outline.focus,
+.btn-black-outline.active {
+  color: #000000 !important;
+  background-color: transparent !important;
+  border-color: #000000 !important;
+  box-shadow: none !important;
+}
+
+.btn-black-outline.disabled,
+.btn-black-outline:disabled {
+  color: #ffffff !important;
+  background-color: #232323 !important;
+  border-color: #232323 !important;
+}
+
+.btn-white-outline,
+.btn-white-outline:active {
+  background-color: transparent !important;
+  border-color: #fafafa;
+  color: #fafafa;
+}
+
+.btn-white-outline:hover,
+.btn-white-outline:focus,
+.btn-white-outline.focus,
+.btn-white-outline.active {
+  color: #cfcfcf !important;
+  background-color: transparent !important;
+  border-color: #cfcfcf !important;
+  box-shadow: none !important;
+}
+
+.btn-white-outline.disabled,
+.btn-white-outline:disabled {
+  color: #7a7a7a !important;
+  background-color: #fafafa !important;
+  border-color: #fafafa !important;
+}
+
+.text-primary {
+  color: #6592e6 !important;
+}
+
+.text-secondary {
+  color: #fd305c !important;
+}
+
+.text-success {
+  color: #ffffff !important;
+}
+
+.text-info {
+  color: #ffffff !important;
+}
+
+.text-warning {
+  color: #ffe800 !important;
+}
+
+.text-danger {
+  color: #ff9966 !important;
+}
+
+.text-white {
+  color: #fafafa !important;
+}
+
+.text-black {
+  color: #232323 !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus,
+a.text-primary.active {
+  color: #205ac5 !important;
+}
+
+a.text-secondary:hover,
+a.text-secondary:focus,
+a.text-secondary.active {
+  color: #c5022c !important;
+}
+
+a.text-success:hover,
+a.text-success:focus,
+a.text-success.active {
+  color: #cccccc !important;
+}
+
+a.text-info:hover,
+a.text-info:focus,
+a.text-info.active {
+  color: #cccccc !important;
+}
+
+a.text-warning:hover,
+a.text-warning:focus,
+a.text-warning.active {
+  color: #998b00 !important;
+}
+
+a.text-danger:hover,
+a.text-danger:focus,
+a.text-danger.active {
+  color: #ff5500 !important;
+}
+
+a.text-white:hover,
+a.text-white:focus,
+a.text-white.active {
+  color: #c7c7c7 !important;
+}
+
+a.text-black:hover,
+a.text-black:focus,
+a.text-black.active {
+  color: #000000 !important;
+}
+
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.alkamelt-caption) {
+  position: relative;
+  background-image: transparent;
+  background-size: 10000px 2px;
+  background-repeat: no-repeat;
+  background-position: 0px 1.2em;
+  background-position: -10000px 1.2em;
+}
+
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.alkamelt-caption):hover {
+  transition: background-position 2s ease-in-out;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
+  background-position: 0px 1.2em;
+}
+
+.nav-tabs .nav-link.active {
+  color: #6592e6;
+}
+
+.nav-tabs .nav-link:not(.active) {
+  color: #232323;
+}
+
+.alert-success {
+  background-color: #70c770;
+}
+
+.alert-info {
+  background-color: #ffffff;
+}
+
+.alert-warning {
+  background-color: #ffe800;
+}
+
+.alert-danger {
+  background-color: #ff9966;
+}
+
+.alkamelt-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+
+.alkamelt-gallery-filter li a {
+  border-radius: 100px !important;
+}
+
+.alkamelt-gallery-filter li.active .btn {
+  background-color: #6592e6;
+  border-color: #6592e6;
+  color: #ffffff;
+}
+
+.alkamelt-gallery-filter li.active .btn:focus {
+  box-shadow: none;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
+}
+
+a,
+a:hover {
+  color: #6592e6;
+}
+
+.alkamelt-plan-header.bg-primary .alkamelt-plan-subtitle,
+.alkamelt-plan-header.bg-primary .alkamelt-plan-price-desc {
+  color: #ffffff;
+}
+
+.alkamelt-plan-header.bg-success .alkamelt-plan-subtitle,
+.alkamelt-plan-header.bg-success .alkamelt-plan-price-desc {
+  color: #ffffff;
+}
+
+.alkamelt-plan-header.bg-info .alkamelt-plan-subtitle,
+.alkamelt-plan-header.bg-info .alkamelt-plan-price-desc {
+  color: #ffffff;
+}
+
+.alkamelt-plan-header.bg-warning .alkamelt-plan-subtitle,
+.alkamelt-plan-header.bg-warning .alkamelt-plan-price-desc {
+  color: #fffacc;
+}
+
+.alkamelt-plan-header.bg-danger .alkamelt-plan-subtitle,
+.alkamelt-plan-header.bg-danger .alkamelt-plan-price-desc {
+  color: #ffffff;
+}
+
+/* Scroll to top button*/
+.scrollToTop_wraper {
+  display: none;
+}
+
+.form-control {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.form-control>.alkamelt-iconfont {
+  font-size: 1.75rem;
+}
+
+.form-control:hover,
+.form-control:focus {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+  border-color: #6592e6 !important;
+}
+
+.form-control:-webkit-input-placeholder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.form-control:-webkit-input-placeholder>.alkamelt-iconfont {
+  font-size: 1.75rem;
+}
+
+blockquote {
+  border-color: #6592e6;
+}
+
+/* Forms */
+.alkamelt-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+
+.alkamelt-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.alkamelt-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+
+.alkamelt-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #6592e6;
+  color: #ffffff;
+}
+
+.jq-number__spin {
+  transition: 0.25s ease;
+}
+
+.jq-number__spin:hover {
+  border-color: #6592e6;
+}
+
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: #353535;
+  border-bottom-color: #353535;
+}
+
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #6592e6;
+  border-bottom-color: #6592e6;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #6592e6 !important;
+  box-shadow: none !important;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover {
+  color: #ffffff !important;
+  background: #fd305c !important;
+  box-shadow: none !important;
+}
+
+.lazy-bg {
+  background-image: none !important;
+}
+
+.lazy-placeholder:not(section),
+.lazy-none {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  width: 100%;
+  height: auto;
+}
+
+iframe.lazy-placeholder,
+.lazy-placeholder:after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: transparent no-repeat center;
+  background-size: contain;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%236592e6' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+}
+
+section.lazy-placeholder:after {
+  opacity: 0.5;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  transition: color 0.6s;
+}
+
+.alkamelt-menu-section {
+  z-index: 1000;
+  width: 100%;
+}
+
+.alkamelt-menu-section nav.alkamelt-navbar {
+  position: fixed;
+}
+
+.alkamelt-menu-section .dropdown-item:before {
+  font-family: 'Roboto Condensed', Arial, sans-serif !important;
+  content: "\e966";
+  display: inline-block;
+  width: 0;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  transform: scale(0, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-menu-section .dropdown-menu {
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alkamelt-menu-section .dropdown-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.alkamelt-menu-section .dropdown-item:hover,
+.alkamelt-menu-section .dropdown-item:focus {
+  background: #6592e6 !important;
+  color: white !important;
+}
+
+.alkamelt-menu-section .dropdown-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.alkamelt-menu-section .dropdown-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.alkamelt-menu-section .nav-dropdown .link {
+  padding: 0 0.3em !important;
+  margin: 0.667em 1em !important;
+}
+
+.alkamelt-menu-section .nav-dropdown .link.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.alkamelt-menu-section .nav-link {
+  position: relative;
+}
+
+.alkamelt-menu-section .alkamelt-container {
+  display: flex;
+  margin: auto;
+}
+
+.alkamelt-menu-section .iconfont-wrapper {
+  color: #000000 !important;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.alkamelt-menu-section .dropdown-menu,
+.alkamelt-menu-section .alkamelt-navbar.opened {
+  background: #C4693F !important;
+}
+
+.alkamelt-menu-section .nav-item:focus,
+.alkamelt-menu-section .nav-link:focus {
+  outline: none;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item {
+  width: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item::after {
+  right: 0.5rem;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont:before {
+  display: inline-block;
+  transform: scale(1, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-menu-section .collapsed .dropdown-menu .dropdown-item:before {
+  display: none;
+}
+
+.alkamelt-menu-section .collapsed .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.235em 1.5em 0.235em 1.5em !important;
+  transition: none;
+  margin: 0 !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar {
+  min-height: 70px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  position: absolute;
+  background: #C4693F;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.opened {
+  transition: all 0.3s;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .dropdown-item {
+  padding: 0.5rem 1.8rem;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-logo img {
+  width: auto;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-collapse {
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed {
+  justify-content: center;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed.opened .dropdown-menu {
+  top: 0;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-submenu {
+  left: 0 !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item:after {
+  right: auto;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+  border-bottom: 0;
+  top: 41%;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed ul.alkamelt-navbar-nav li {
+  margin: auto;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
+  text-align: center;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .icons-menu {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-menu-section .alkamelt-navbar .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar.opened .dropdown-menu {
+    top: 0;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-submenu {
+    left: 0 !important;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-item:after {
+    right: auto;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+    top: 40%;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-logo img {
+    height: 3rem !important;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar ul.alkamelt-navbar-nav li {
+    margin: auto;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1.5rem !important;
+    text-align: center;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-brand {
+    flex-shrink: initial;
+    flex-basis: auto;
+    word-break: break-word;
+    padding-right: 2rem;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-toggler {
+    flex-basis: auto;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .icons-menu {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-short {
+  min-height: 60px;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-logo img {
+  height: 2.5rem !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-brand {
+  min-height: 60px;
+  padding: 0;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-brand {
+  min-height: 70px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+  word-break: break-word;
+  z-index: 1;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-brand .alkamelt-caption {
+  line-height: inherit !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-brand .alkamelt-navbar-logo a {
+  outline: none;
+}
+
+.alkamelt-menu-section .dropdown-item.active,
+.alkamelt-menu-section .dropdown-item:active {
+  background-color: transparent;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-expand-lg .alkamelt-navbar-nav .nav-link {
+  padding: 0;
+}
+
+.alkamelt-menu-section .nav-dropdown .link.dropdown-toggle {
+  margin-right: 1.667em;
+}
+
+.alkamelt-menu-section .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+  margin-right: 0;
+  padding: 0.667em 1.667em;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu {
+  background: #C4693F;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+  margin: 0;
+  left: 100%;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .dropdown.open>.dropdown-menu {
+  display: block;
+}
+
+.alkamelt-menu-section ul.alkamelt-navbar-nav {
+  flex-wrap: wrap;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-buttons {
+  text-align: center;
+  min-width: 170px;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler {
+  outline: none;
+  width: 31px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  align-self: center;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-right: 5px;
+  background-color: #ffffff;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(1) {
+  top: 0;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(2) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(3) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(4) {
+  top: 16px;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-dropdown {
+  padding: 0 1rem;
+  position: fixed;
+}
+
+.alkamelt-menu-section a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkamelt-menu-section .icons-menu {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .alkamelt-menu-section .alkamelt-navbar {
+    height: 70px;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar.opened {
+    height: auto;
+  }
+
+  .alkamelt-menu-section .nav-item .nav-link:hover::before {
+    width: 175%;
+    max-width: calc(100% + 2rem);
+    left: -1rem;
+  }
+}
+
+.alkamelt-top-section {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-top-section .alkamelt-image-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-top-section .alkamelt-image-wrap img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .alkamelt-top-section .alkamelt-text-wrap {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .alkamelt-top-section .alkamelt-text-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-top-section .alkamelt-text,
+.alkamelt-top-section .alkamelt-section-btn {
+  color: #353535;
+}
+
+.alkamelt-choose-title {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-choose-title .alkamelt-section-title {
+  color: #ffffff;
+}
+
+.alkamelt-usa-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-usa-section img,
+.alkamelt-usa-section .item-img {
+  width: 100%;
+}
+
+.alkamelt-usa-section .item:focus,
+.alkamelt-usa-section span:focus {
+  outline: none;
+}
+
+.alkamelt-usa-section .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.alkamelt-usa-section .alkamelt-item-wrap {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media (min-width: 992px) {
+  .alkamelt-usa-section .alkamelt-item-wrap .item-content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .alkamelt-usa-section .alkamelt-item-wrap .item-content {
+    padding: 1rem;
+  }
+}
+
+.alkamelt-usa-section .alkamelt-section-btn {
+  margin-top: auto !important;
+}
+
+.alkamelt-usa-section .alkamelt-section-title {
+  color: #232323;
+}
+
+.alkamelt-usa-section .alkamelt-text,
+.alkamelt-usa-section .alkamelt-section-btn {
+  text-align: center;
+}
+
+.alkamelt-usa-section .item-title {
+  text-align: center;
+}
+
+.alkamelt-usa-section .item-subtitle {
+  text-align: center;
+}
+
+.alkamelt-reviews-section {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-reviews-section .alkamelt-section-title {
+  color: #ffffff;
+}
+
+.alkamelt-reviews-one {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: #fafafa;
+}
+
+.alkamelt-reviews-one .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-reviews-one .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-reviews-one .item:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+
+.alkamelt-reviews-one .alkamelt-item-wrap {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.alkamelt-reviews-one .alkamelt-image-wrap img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.alkamelt-reviews-one .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+
+.alkamelt-reviews-one .social-row .soc-item .alkamelt-iconfont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.alkamelt-reviews-one .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+
+.alkamelt-reviews-one .social-row .soc-item:hover .alkamelt-iconfont {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-reviews-one .card-box {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .alkamelt-reviews-one .card-box {
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .alkamelt-reviews-one .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+
+.alkamelt-reviews-one .card-subtitle {
+  color: #000d98;
+}
+
+.alkamelt-order-section {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #EEF3F6;
+}
+
+.alkamelt-order-section .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-order-section .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-order-section .alkamelt-image-wrap {
+    margin-bottom: 1rem;
+  }
+}
+
+.alkamelt-order-section .row {
+  flex-direction: row-reverse;
+}
+
+.alkamelt-order-section img {
+  width: 100%;
+}
+
+.alkamelt-order-choice {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #EEF3F6;
+}
+
+.alkamelt-order-choice img,
+.alkamelt-order-choice .item-img {
+  width: 100%;
+}
+
+.alkamelt-order-choice .item:focus,
+.alkamelt-order-choice span:focus {
+  outline: none;
+}
+
+.alkamelt-order-choice .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.alkamelt-order-choice .alkamelt-item-wrap {
+  position: relative;
+  border-radius: 4px;
+  background: #f0f0f0;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media (min-width: 992px) {
+  .alkamelt-order-choice .alkamelt-item-wrap .item-content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .alkamelt-order-choice .alkamelt-item-wrap .item-content {
+    padding: 1rem;
+  }
+}
+
+.alkamelt-order-choice .alkamelt-section-btn {
+  margin-top: auto !important;
+}
+
+.alkamelt-order-choice .alkamelt-section-title {
+  color: #232323;
+}
+
+.alkamelt-order-choice .alkamelt-text,
+.alkamelt-order-choice .alkamelt-section-btn {
+  text-align: left;
+}
+
+.alkamelt-order-choice .item-title {
+  text-align: left;
+}
+
+.alkamelt-order-choice .item-subtitle {
+  text-align: center;
+}
+
+.alkamelt-what-is-section {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-what-is-section .alkamelt-section-title {
+  color: #ffffff;
+}
+
+.alkamelt-what-is-content {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-what-is-content .alkamelt-image-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-what-is-content .alkamelt-image-wrap img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .alkamelt-what-is-content .alkamelt-text-wrap {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .alkamelt-what-is-content .alkamelt-text-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-what-is-content .alkamelt-text,
+.alkamelt-what-is-content .alkamelt-section-btn {
+  color: #000000;
+}
+
+.alkamelt-works-section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #f7f7f7;
+}
+
+.alkamelt-works-section .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-works-section .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-works-section .alkamelt-section-title {
+  color: #C4693F;
+}
+
+.color-change {
+  color: #C4693F;
+}
+
+.alkamelt-works-section .alkamelt-section-subtitle {
+  text-align: left;
+}
+
+.alkamelt-advantage-section {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-advantage-section .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-advantage-section .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-advantage-section .alkamelt-section-title {
+  color: #C4693F;
+}
+
+.alkamelt-advantage-content {
+  padding-top: 0rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-advantage-content .alkamelt-counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+
+.alkamelt-advantage-content .alkamelt-counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.alkamelt-advantage-content .alkamelt-counter-container ul li:before {
+  position: absolute;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0073af;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  content: "✓";
+}
+
+.alkamelt-order-section-two {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-order-section-two .alkamelt-section-title {
+  color: #ffffff;
+}
+
+.alkamelt-enus-cid {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background: #EEF3F6;
+}
+
+.alkamelt-enus-cid .team-card {
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.alkamelt-enus-cid .team-card:hover {
+  transform: translateY(-10px);
+}
+
+.alkamelt-enus-cid .card-wrap {
+  background: #EEF3F6;
+  border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-enus-cid .card-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-enus-cid .card-wrap .image-wrap img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .alkamelt-enus-cid .card-wrap .content-wrap {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .alkamelt-enus-cid .card-wrap .content-wrap {
+    padding: 1rem;
+  }
+}
+
+.alkamelt-enus-cid .social-row {
+  text-align: center;
+}
+
+.alkamelt-enus-cid .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+
+.alkamelt-enus-cid .social-row .soc-item .alkamelt-iconfont {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+}
+
+.alkamelt-enus-cid .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+
+.alkamelt-enus-cid .social-row .soc-item:hover .alkamelt-iconfont {
+  color: #ffffff;
+}
+
+.alkamelt-enus-cid .alkamelt-section-title {
+  color: #000000;
+}
+
+.alkamelt-enus-cid .alkamelt-section-title1 {
+  color: #000000;
+}
+
+.alkamelt-cid-css-one {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-cid-css-one .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-cid-css-one .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-cid-css-one .alkamelt-section-title {
+  color: #ffffff;
+}
+
+.alkamelt-css-one {
+  padding-top: 0rem;
+  padding-bottom: 3rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-css-one .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-css-one .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-css-one .item:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+
+.alkamelt-css-one .alkamelt-item-wrap {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.alkamelt-css-one .alkamelt-image-wrap img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.alkamelt-css-one .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+
+.alkamelt-css-one .social-row .soc-item .alkamelt-iconfont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.alkamelt-css-one .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+
+.alkamelt-css-one .social-row .soc-item:hover .alkamelt-iconfont {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-css-one .card-box {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .alkamelt-css-one .card-box {
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .alkamelt-css-one .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+
+.alkamelt-css-one .card-subtitle {
+  color: #C4693F;
+}
+
+.alkamelt-ingredients-section {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-ingredients-section .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-ingredients-section .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-ingredients-section .alkamelt-section-title {
+  color: #C4693F;
+}
+
+.alkamelt-ingredients-content {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-ingredients-content .alkamelt-counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+
+.alkamelt-ingredients-content .alkamelt-counter-container ol li {
+  margin-bottom: 1rem;
+}
+
+.alkamelt-ingredients-content .alkamelt-counter-container ol li {
+  list-style: none;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.alkamelt-ingredients-content .alkamelt-counter-container ol li:before {
+  position: absolute;
+  left: -40px;
+  margin-top: 5px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #C4693F;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkamelt-quality-section {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #fafafa;
+}
+
+.alkamelt-quality-section img,
+.alkamelt-quality-section .item-img {
+  width: 100%;
+}
+
+.alkamelt-quality-section .item:focus,
+.alkamelt-quality-section span:focus {
+  outline: none;
+}
+
+.alkamelt-quality-section .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.alkamelt-quality-section .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.alkamelt-quality-section .item {
+  padding: 0;
+  margin: 0;
+}
+
+.alkamelt-quality-section .alkamelt-item-wrap {
+  position: unset;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media (min-width: 992px) {
+  .alkamelt-quality-section .alkamelt-item-wrap .item-content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .alkamelt-quality-section .alkamelt-item-wrap .item-content {
+    padding: 1rem;
+  }
+}
+
+.alkamelt-quality-section .alkamelt-section-btn {
+  margin-top: auto !important;
+}
+
+.alkamelt-quality-section .alkamelt-section-title {
+  color: #232323;
+}
+
+.alkamelt-quality-section .alkamelt-section-subtitle {
+  text-align: center;
+}
+
+.alkamelt-proven-section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-proven-section .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.alkamelt-proven-section .item .icon-wrap {
+  text-align: center;
+}
+
+.alkamelt-proven-section .item span {
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 60px;
+}
+
+.alkamelt-proven-section .item::before {
+  content: "➔";
+  /* Replace broken icon with real arrow */
+  font-family: inherit !important;
+  /* Use normal text font */
+  position: absolute;
+  font-size: 32px;
+  left: -15px;
+  top: 12%;
+  color: #C4693F;
+  /* Your theme green */
+}
+
+.alkamelt-proven-section .item.first:before {
+  display: none;
+}
+
+.alkamelt-proven-section .item.five:before {
+  display: none;
+}
+
+.alkamelt-proven-section .icon-box {
+  background: #C4693F;
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.alkamelt-proven-section .text-box {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.alkamelt-proven-section .alkamelt-iconfont {
+  color: #6592e6 !important;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-proven-section .item:before {
+    display: none;
+  }
+
+  .alkamelt-proven-section .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-benefits-section {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-benefits-section .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-benefits-section .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-benefits-section .alkamelt-section-title {
+  color: #ffffff;
+}
+
+.alkamelt-benefits-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-benefits-content .alkamelt-counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+
+.alkamelt-benefits-content .alkamelt-counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.alkamelt-benefits-content .alkamelt-counter-container ul li:before {
+  position: absolute;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #C4693F;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  content: "✓";
+}
+
+.alkamelt-moneyback-guarantee-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #fafafa;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-moneyback-guarantee-section .alkamelt-image-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-moneyback-guarantee-section .alkamelt-image-wrap img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .alkamelt-moneyback-guarantee-section .alkamelt-text-wrap {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .alkamelt-moneyback-guarantee-section .alkamelt-text-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
+.alkamelt-moneyback-guarantee-section .alkamelt-text,
+.alkamelt-moneyback-guarantee-section .alkamelt-section-btn {
+  color: #000000;
+}
+
+.alkamelt-moneyback-guarantee-section .alkamelt-section-title {
+  color: #C4693F;
+}
+
+.alkamelt-faqs-section {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-faqs-section .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-faqs-section .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-faqs-section .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.alkamelt-faqs-section .alkamelt-faq-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alkamelt-faqs-section .alkamelt-iconfont {
+  padding-left: 1rem;
+  font-family: 'Roboto Condensed', Arial, sans-serif !important;
+  font-size: 1.4rem !important;
+  color: #6592e6;
+}
+
+.alkamelt-faqs-section .alkamelt-faq-body,
+.alkamelt-faqs-section .card-header {
+  padding: 1rem 0;
+}
+
+.alkamelt-faqs-section .alkamelt-faq-title-edit {
+  color: #000000;
+}
+
+.alkamelt-faqs-section H3 {
+  color: #C4693F;
+}
+
+.alkamelt-special-deal-section {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-special-deal-section .alkamelt-section-title {
+  color: #ffffff;
+}
+
+.alkamelt-deal-content-one {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-deal-content-one .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-deal-content-one .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-deal-content-one .alkamelt-image-wrap {
+    margin-bottom: 1rem;
+  }
+}
+
+.alkamelt-deal-content-one .row {
+  flex-direction: row-reverse;
+}
+
+.alkamelt-deal-content-one img {
+  width: 100%;
+}
+
+.alkamelt-css-two {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-pages-section {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #C4693F;
+}
+
+.alkamelt-pages-section .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-pages-section .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-pages-section ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+
+.alkamelt-pages-section li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.alkamelt-pages-section ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+}
+
+.alkamelt-pages-section .list {
+  color: #ffffff;
+}
+
+.alkamelt-footer-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #353535;
+}
+
+.alkamelt-footer-section .row-links {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-footer-section .social-row {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-footer-section .row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alkamelt-footer-section .row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.alkamelt-footer-section .row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.alkamelt-footer-section .row .foot-menu li p {
+  margin: 0;
+}
+
+.alkamelt-footer-section .row .social-list {
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.alkamelt-footer-section .row .social-list .alkamelt-iconfont-social {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.alkamelt-footer-section .row .social-list .soc-item {
+  margin: 0 .5rem;
+}
+
+.alkamelt-footer-section .row .social-list a {
+  margin: 0;
+  opacity: .5;
+  transition: .2s linear;
+}
+
+.alkamelt-footer-section .row .social-list a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-footer-section .row .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+.alkamelt-footer-section .row .row-copirayt {
+  word-break: break-word;
+  width: 100%;
+}
+
+.alkamelt-footer-section .row .row-copirayt p {
+  width: 100%;
+}
+
+.alkamelt-footer-section .row .alkamelt-text {
+  text-align: center;
+}
+
+.alkamelt-menu-section {
+  z-index: 1000;
+  width: 100%;
+}
+
+.alkamelt-menu-section nav.alkamelt-navbar {
+  position: fixed;
+}
+
+.alkamelt-menu-section .dropdown-item:before {
+  font-family: 'Roboto Condensed', Arial, sans-serif !important;
+  content: "\e966";
+  display: inline-block;
+  width: 0;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  transform: scale(0, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-menu-section .dropdown-menu {
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alkamelt-menu-section .dropdown-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.alkamelt-menu-section .dropdown-item:hover,
+.alkamelt-menu-section .dropdown-item:focus {
+  background: #6592e6 !important;
+  color: white !important;
+}
+
+.alkamelt-menu-section .dropdown-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.alkamelt-menu-section .dropdown-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.alkamelt-menu-section .nav-dropdown .link {
+  padding: 0 0.3em !important;
+  margin: 0.667em 1em !important;
+}
+
+.alkamelt-menu-section .nav-dropdown .link.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.alkamelt-menu-section .nav-link {
+  position: relative;
+}
+
+.alkamelt-menu-section .alkamelt-container {
+  display: flex;
+  margin: auto;
+}
+
+.alkamelt-menu-section .iconfont-wrapper {
+  color: #000000 !important;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.alkamelt-menu-section .dropdown-menu,
+.alkamelt-menu-section .alkamelt-navbar.opened {
+  background: #C4693F !important;
+}
+
+.alkamelt-menu-section .nav-item:focus,
+.alkamelt-menu-section .nav-link:focus {
+  outline: none;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item {
+  width: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item::after {
+  right: 0.5rem;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+}
+
+.alkamelt-menu-section .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont:before {
+  display: inline-block;
+  transform: scale(1, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-menu-section .collapsed .dropdown-menu .dropdown-item:before {
+  display: none;
+}
+
+.alkamelt-menu-section .collapsed .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.235em 1.5em 0.235em 1.5em !important;
+  transition: none;
+  margin: 0 !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar {
+  min-height: 70px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  position: absolute;
+  background: #C4693F;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.opened {
+  transition: all 0.3s;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .dropdown-item {
+  padding: 0.5rem 1.8rem;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-logo img {
+  width: auto;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-collapse {
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed {
+  justify-content: center;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed.opened .dropdown-menu {
+  top: 0;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-submenu {
+  left: 0 !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item:after {
+  right: auto;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+  border-bottom: 0;
+  top: 41%;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed ul.alkamelt-navbar-nav li {
+  margin: auto;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
+  text-align: center;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.collapsed .icons-menu {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-menu-section .alkamelt-navbar .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar.opened .dropdown-menu {
+    top: 0;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-submenu {
+    left: 0 !important;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-item:after {
+    right: auto;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+    top: 40%;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-logo img {
+    height: 3rem !important;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar ul.alkamelt-navbar-nav li {
+    margin: auto;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1.5rem !important;
+    text-align: center;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-brand {
+    flex-shrink: initial;
+    flex-basis: auto;
+    word-break: break-word;
+    padding-right: 2rem;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .alkamelt-navbar-toggler {
+    flex-basis: auto;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar .icons-menu {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-short {
+  min-height: 60px;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-logo img {
+  height: 2.5rem !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-brand {
+  min-height: 60px;
+  padding: 0;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-brand {
+  min-height: 70px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+  word-break: break-word;
+  z-index: 1;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-brand .alkamelt-caption {
+  line-height: inherit !important;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-brand .alkamelt-navbar-logo a {
+  outline: none;
+}
+
+.alkamelt-menu-section .dropdown-item.active,
+.alkamelt-menu-section .dropdown-item:active {
+  background-color: transparent;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-expand-lg .alkamelt-navbar-nav .nav-link {
+  padding: 0;
+}
+
+.alkamelt-menu-section .nav-dropdown .link.dropdown-toggle {
+  margin-right: 1.667em;
+}
+
+.alkamelt-menu-section .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+  margin-right: 0;
+  padding: 0.667em 1.667em;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu {
+  background: #C4693F;
+}
+
+.alkamelt-menu-section .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+  margin: 0;
+  left: 100%;
+}
+
+.alkamelt-menu-section .alkamelt-navbar .dropdown.open>.dropdown-menu {
+  display: block;
+}
+
+.alkamelt-menu-section ul.alkamelt-navbar-nav {
+  flex-wrap: wrap;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-buttons {
+  text-align: center;
+  min-width: 170px;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler {
+  outline: none;
+  width: 31px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  align-self: center;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-right: 5px;
+  background-color: #ffffff;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(1) {
+  top: 0;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(2) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(3) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-menu-section button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(4) {
+  top: 16px;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-menu-section nav.opened .alkamelt-hamburger span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-menu-section .alkamelt-navbar-dropdown {
+  padding: 0 1rem;
+  position: fixed;
+}
+
+.alkamelt-menu-section a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkamelt-menu-section .icons-menu {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .alkamelt-menu-section .alkamelt-navbar {
+    height: 70px;
+  }
+
+  .alkamelt-menu-section .alkamelt-navbar.opened {
+    height: auto;
+  }
+
+  .alkamelt-menu-section .nav-item .nav-link:hover::before {
+    width: 175%;
+    max-width: calc(100% + 2rem);
+    left: -1rem;
+  }
+}
+
+.alkamelt-css-three {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-three .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-css-three .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-css-three .alkamelt-section-title {
+  text-align: left;
+}
+
+.alkamelt-css-three .alkamelt-section-subtitle {
+  text-align: left;
+}
+
+.alkamelt-footer-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #353535;
+}
+
+.alkamelt-footer-section .row-links {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-footer-section .social-row {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-footer-section .row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alkamelt-footer-section .row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.alkamelt-footer-section .row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.alkamelt-footer-section .row .foot-menu li p {
+  margin: 0;
+}
+
+.alkamelt-footer-section .row .social-list {
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.alkamelt-footer-section .row .social-list .alkamelt-iconfont-social {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.alkamelt-footer-section .row .social-list .soc-item {
+  margin: 0 .5rem;
+}
+
+.alkamelt-footer-section .row .social-list a {
+  margin: 0;
+  opacity: .5;
+  transition: .2s linear;
+}
+
+.alkamelt-footer-section .row .social-list a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-footer-section .row .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+.alkamelt-footer-section .row .row-copirayt {
+  word-break: break-word;
+  width: 100%;
+}
+
+.alkamelt-footer-section .row .row-copirayt p {
+  width: 100%;
+}
+
+.alkamelt-footer-section .row .alkamelt-text {
+  text-align: center;
+}
+
+.alkamelt-enus {
+  z-index: 1000;
+  width: 100%;
+}
+
+.alkamelt-enus nav.alkamelt-navbar {
+  position: fixed;
+}
+
+.alkamelt-enus .dropdown-item:before {
+  font-family: 'Roboto Condensed', Arial, sans-serif !important;
+  content: "\e966";
+  display: inline-block;
+  width: 0;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  transform: scale(0, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-enus .dropdown-menu {
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alkamelt-enus .dropdown-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.alkamelt-enus .dropdown-item:hover,
+.alkamelt-enus .dropdown-item:focus {
+  background: #6592e6 !important;
+  color: white !important;
+}
+
+.alkamelt-enus .dropdown-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.alkamelt-enus .dropdown-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.alkamelt-enus .nav-dropdown .link {
+  padding: 0 0.3em !important;
+  margin: 0.667em 1em !important;
+}
+
+.alkamelt-enus .nav-dropdown .link.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.alkamelt-enus .nav-link {
+  position: relative;
+}
+
+.alkamelt-enus .alkamelt-container {
+  display: flex;
+  margin: auto;
+}
+
+.alkamelt-enus .iconfont-wrapper {
+  color: #000000 !important;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.alkamelt-enus .dropdown-menu,
+.alkamelt-enus .alkamelt-navbar.opened {
+  background: #C4693F !important;
+}
+
+.alkamelt-enus .nav-item:focus,
+.alkamelt-enus .nav-link:focus {
+  outline: none;
+}
+
+.alkamelt-enus .dropdown .dropdown-menu .dropdown-item {
+  width: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-enus .dropdown .dropdown-menu .dropdown-item::after {
+  right: 0.5rem;
+}
+
+.alkamelt-enus .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+}
+
+.alkamelt-enus .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont:before {
+  display: inline-block;
+  transform: scale(1, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-enus .collapsed .dropdown-menu .dropdown-item:before {
+  display: none;
+}
+
+.alkamelt-enus .collapsed .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.235em 1.5em 0.235em 1.5em !important;
+  transition: none;
+  margin: 0 !important;
+}
+
+.alkamelt-enus .alkamelt-navbar {
+  min-height: 70px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  position: absolute;
+  background: #C4693F;
+}
+
+.alkamelt-enus .alkamelt-navbar.opened {
+  transition: all 0.3s;
+}
+
+.alkamelt-enus .alkamelt-navbar .dropdown-item {
+  padding: 0.5rem 1.8rem;
+}
+
+.alkamelt-enus .alkamelt-navbar .alkamelt-navbar-logo img {
+  width: auto;
+}
+
+.alkamelt-enus .alkamelt-navbar .alkamelt-navbar-collapse {
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed {
+  justify-content: center;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed.opened .dropdown-menu {
+  top: 0;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed .dropdown-menu .dropdown-submenu {
+  left: 0 !important;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item:after {
+  right: auto;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+  border-bottom: 0;
+  top: 41%;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed ul.alkamelt-navbar-nav li {
+  margin: auto;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
+  text-align: center;
+}
+
+.alkamelt-enus .alkamelt-navbar.collapsed .icons-menu {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-enus .alkamelt-navbar .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .alkamelt-enus .alkamelt-navbar.opened .dropdown-menu {
+    top: 0;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .dropdown-menu .dropdown-submenu {
+    left: 0 !important;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .dropdown-menu .dropdown-item:after {
+    right: auto;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+    top: 40%;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .alkamelt-navbar-logo img {
+    height: 3rem !important;
+  }
+
+  .alkamelt-enus .alkamelt-navbar ul.alkamelt-navbar-nav li {
+    margin: auto;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1.5rem !important;
+    text-align: center;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .alkamelt-navbar-brand {
+    flex-shrink: initial;
+    flex-basis: auto;
+    word-break: break-word;
+    padding-right: 2rem;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .alkamelt-navbar-toggler {
+    flex-basis: auto;
+  }
+
+  .alkamelt-enus .alkamelt-navbar .icons-menu {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.alkamelt-enus .alkamelt-navbar.alkamelt-navbar-short {
+  min-height: 60px;
+}
+
+.alkamelt-enus .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-logo img {
+  height: 2.5rem !important;
+}
+
+.alkamelt-enus .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-brand {
+  min-height: 60px;
+  padding: 0;
+}
+
+.alkamelt-enus .alkamelt-navbar-brand {
+  min-height: 70px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+  word-break: break-word;
+  z-index: 1;
+}
+
+.alkamelt-enus .alkamelt-navbar-brand .alkamelt-caption {
+  line-height: inherit !important;
+}
+
+.alkamelt-enus .alkamelt-navbar-brand .alkamelt-navbar-logo a {
+  outline: none;
+}
+
+.alkamelt-enus .dropdown-item.active,
+.alkamelt-enus .dropdown-item:active {
+  background-color: transparent;
+}
+
+.alkamelt-enus .alkamelt-navbar-expand-lg .alkamelt-navbar-nav .nav-link {
+  padding: 0;
+}
+
+.alkamelt-enus .nav-dropdown .link.dropdown-toggle {
+  margin-right: 1.667em;
+}
+
+.alkamelt-enus .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+  margin-right: 0;
+  padding: 0.667em 1.667em;
+}
+
+.alkamelt-enus .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu {
+  background: #C4693F;
+}
+
+.alkamelt-enus .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+  margin: 0;
+  left: 100%;
+}
+
+.alkamelt-enus .alkamelt-navbar .dropdown.open>.dropdown-menu {
+  display: block;
+}
+
+.alkamelt-enus ul.alkamelt-navbar-nav {
+  flex-wrap: wrap;
+}
+
+.alkamelt-enus .alkamelt-navbar-buttons {
+  text-align: center;
+  min-width: 170px;
+}
+
+.alkamelt-enus button.alkamelt-navbar-toggler {
+  outline: none;
+  width: 31px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  align-self: center;
+}
+
+.alkamelt-enus button.alkamelt-navbar-toggler .alkamelt-hamburger span {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-right: 5px;
+  background-color: #ffffff;
+}
+
+.alkamelt-enus button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(1) {
+  top: 0;
+  transition: all 0.2s;
+}
+
+.alkamelt-enus button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(2) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-enus button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(3) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-enus button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(4) {
+  top: 16px;
+  transition: all 0.2s;
+}
+
+.alkamelt-enus nav.opened .alkamelt-hamburger span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-enus nav.opened .alkamelt-hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-enus nav.opened .alkamelt-hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-enus nav.opened .alkamelt-hamburger span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-enus .alkamelt-navbar-dropdown {
+  padding: 0 1rem;
+  position: fixed;
+}
+
+.alkamelt-enus a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkamelt-enus .icons-menu {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .alkamelt-enus .alkamelt-navbar {
+    height: 70px;
+  }
+
+  .alkamelt-enus .alkamelt-navbar.opened {
+    height: auto;
+  }
+
+  .alkamelt-enus .nav-item .nav-link:hover::before {
+    width: 175%;
+    max-width: calc(100% + 2rem);
+    left: -1rem;
+  }
+}
+
+.alkamelt-css-four {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-four .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-css-four .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-css-four .alkamelt-section-title {
+  text-align: left;
+}
+
+.alkamelt-css-four .alkamelt-section-subtitle {
+  text-align: left;
+}
+
+.alkamelt-css-five {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #353535;
+}
+
+.alkamelt-css-five .row-links {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-five .social-row {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-five .row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alkamelt-css-five .row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.alkamelt-css-five .row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.alkamelt-css-five .row .foot-menu li p {
+  margin: 0;
+}
+
+.alkamelt-css-five .row .social-list {
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.alkamelt-css-five .row .social-list .alkamelt-iconfont-social {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.alkamelt-css-five .row .social-list .soc-item {
+  margin: 0 .5rem;
+}
+
+.alkamelt-css-five .row .social-list a {
+  margin: 0;
+  opacity: .5;
+  transition: .2s linear;
+}
+
+.alkamelt-css-five .row .social-list a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-css-five .row .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+.alkamelt-css-five .row .row-copirayt {
+  word-break: break-word;
+  width: 100%;
+}
+
+.alkamelt-css-five .row .row-copirayt p {
+  width: 100%;
+}
+
+.alkamelt-css-five .row .alkamelt-text {
+  text-align: center;
+}
+
+.alkamelt-css-six {
+  z-index: 1000;
+  width: 100%;
+}
+
+.alkamelt-css-six nav.alkamelt-navbar {
+  position: fixed;
+}
+
+.alkamelt-css-six .dropdown-item:before {
+  font-family: 'Roboto Condensed', Arial, sans-serif !important;
+  content: "\e966";
+  display: inline-block;
+  width: 0;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  transform: scale(0, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-six .dropdown-menu {
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alkamelt-css-six .dropdown-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.alkamelt-css-six .dropdown-item:hover,
+.alkamelt-css-six .dropdown-item:focus {
+  background: #6592e6 !important;
+  color: white !important;
+}
+
+.alkamelt-css-six .dropdown-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.alkamelt-css-six .dropdown-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.alkamelt-css-six .nav-dropdown .link {
+  padding: 0 0.3em !important;
+  margin: 0.667em 1em !important;
+}
+
+.alkamelt-css-six .nav-dropdown .link.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.alkamelt-css-six .nav-link {
+  position: relative;
+}
+
+.alkamelt-css-six .alkamelt-container {
+  display: flex;
+  margin: auto;
+}
+
+.alkamelt-css-six .iconfont-wrapper {
+  color: #000000 !important;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.alkamelt-css-six .dropdown-menu,
+.alkamelt-css-six .alkamelt-navbar.opened {
+  background: #C4693F !important;
+}
+
+.alkamelt-css-six .nav-item:focus,
+.alkamelt-css-six .nav-link:focus {
+  outline: none;
+}
+
+.alkamelt-css-six .dropdown .dropdown-menu .dropdown-item {
+  width: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-six .dropdown .dropdown-menu .dropdown-item::after {
+  right: 0.5rem;
+}
+
+.alkamelt-css-six .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+}
+
+.alkamelt-css-six .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont:before {
+  display: inline-block;
+  transform: scale(1, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-six .collapsed .dropdown-menu .dropdown-item:before {
+  display: none;
+}
+
+.alkamelt-css-six .collapsed .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.235em 1.5em 0.235em 1.5em !important;
+  transition: none;
+  margin: 0 !important;
+}
+
+.alkamelt-css-six .alkamelt-navbar {
+  min-height: 70px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  position: absolute;
+  background: #C4693F;
+}
+
+.alkamelt-css-six .alkamelt-navbar.opened {
+  transition: all 0.3s;
+}
+
+.alkamelt-css-six .alkamelt-navbar .dropdown-item {
+  padding: 0.5rem 1.8rem;
+}
+
+.alkamelt-css-six .alkamelt-navbar .alkamelt-navbar-logo img {
+  width: auto;
+}
+
+.alkamelt-css-six .alkamelt-navbar .alkamelt-navbar-collapse {
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed {
+  justify-content: center;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed.opened .dropdown-menu {
+  top: 0;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed .dropdown-menu .dropdown-submenu {
+  left: 0 !important;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item:after {
+  right: auto;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+  border-bottom: 0;
+  top: 41%;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed ul.alkamelt-navbar-nav li {
+  margin: auto;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
+  text-align: center;
+}
+
+.alkamelt-css-six .alkamelt-navbar.collapsed .icons-menu {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-css-six .alkamelt-navbar .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar.opened .dropdown-menu {
+    top: 0;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .dropdown-menu .dropdown-submenu {
+    left: 0 !important;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .dropdown-menu .dropdown-item:after {
+    right: auto;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+    top: 40%;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .alkamelt-navbar-logo img {
+    height: 3rem !important;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar ul.alkamelt-navbar-nav li {
+    margin: auto;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1.5rem !important;
+    text-align: center;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .alkamelt-navbar-brand {
+    flex-shrink: initial;
+    flex-basis: auto;
+    word-break: break-word;
+    padding-right: 2rem;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .alkamelt-navbar-toggler {
+    flex-basis: auto;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar .icons-menu {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.alkamelt-css-six .alkamelt-navbar.alkamelt-navbar-short {
+  min-height: 60px;
+}
+
+.alkamelt-css-six .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-logo img {
+  height: 2.5rem !important;
+}
+
+.alkamelt-css-six .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-brand {
+  min-height: 60px;
+  padding: 0;
+}
+
+.alkamelt-css-six .alkamelt-navbar-brand {
+  min-height: 70px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+  word-break: break-word;
+  z-index: 1;
+}
+
+.alkamelt-css-six .alkamelt-navbar-brand .alkamelt-caption {
+  line-height: inherit !important;
+}
+
+.alkamelt-css-six .alkamelt-navbar-brand .alkamelt-navbar-logo a {
+  outline: none;
+}
+
+.alkamelt-css-six .dropdown-item.active,
+.alkamelt-css-six .dropdown-item:active {
+  background-color: transparent;
+}
+
+.alkamelt-css-six .alkamelt-navbar-expand-lg .alkamelt-navbar-nav .nav-link {
+  padding: 0;
+}
+
+.alkamelt-css-six .nav-dropdown .link.dropdown-toggle {
+  margin-right: 1.667em;
+}
+
+.alkamelt-css-six .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+  margin-right: 0;
+  padding: 0.667em 1.667em;
+}
+
+.alkamelt-css-six .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu {
+  background: #C4693F;
+}
+
+.alkamelt-css-six .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+  margin: 0;
+  left: 100%;
+}
+
+.alkamelt-css-six .alkamelt-navbar .dropdown.open>.dropdown-menu {
+  display: block;
+}
+
+.alkamelt-css-six ul.alkamelt-navbar-nav {
+  flex-wrap: wrap;
+}
+
+.alkamelt-css-six .alkamelt-navbar-buttons {
+  text-align: center;
+  min-width: 170px;
+}
+
+.alkamelt-css-six button.alkamelt-navbar-toggler {
+  outline: none;
+  width: 31px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  align-self: center;
+}
+
+.alkamelt-css-six button.alkamelt-navbar-toggler .alkamelt-hamburger span {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-right: 5px;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-six button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(1) {
+  top: 0;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-six button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(2) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-css-six button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(3) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-css-six button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(4) {
+  top: 16px;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-six nav.opened .alkamelt-hamburger span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-six nav.opened .alkamelt-hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-css-six nav.opened .alkamelt-hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-css-six nav.opened .alkamelt-hamburger span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-six .alkamelt-navbar-dropdown {
+  padding: 0 1rem;
+  position: fixed;
+}
+
+.alkamelt-css-six a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkamelt-css-six .icons-menu {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .alkamelt-css-six .alkamelt-navbar {
+    height: 70px;
+  }
+
+  .alkamelt-css-six .alkamelt-navbar.opened {
+    height: auto;
+  }
+
+  .alkamelt-css-six .nav-item .nav-link:hover::before {
+    width: 175%;
+    max-width: calc(100% + 2rem);
+    left: -1rem;
+  }
+}
+
+.alkamelt-css-seven {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-seven .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-css-seven .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-css-seven .alkamelt-section-title {
+  text-align: left;
+}
+
+.alkamelt-css-seven .alkamelt-section-subtitle {
+  text-align: left;
+}
+
+.alkamelt-css-one-one {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #353535;
+}
+
+.alkamelt-css-one-one .row-links {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-one-one .social-row {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-one-one .row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alkamelt-css-one-one .row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.alkamelt-css-one-one .row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.alkamelt-css-one-one .row .foot-menu li p {
+  margin: 0;
+}
+
+.alkamelt-css-one-one .row .social-list {
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.alkamelt-css-one-one .row .social-list .alkamelt-iconfont-social {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.alkamelt-css-one-one .row .social-list .soc-item {
+  margin: 0 .5rem;
+}
+
+.alkamelt-css-one-one .row .social-list a {
+  margin: 0;
+  opacity: .5;
+  transition: .2s linear;
+}
+
+.alkamelt-css-one-one .row .social-list a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-css-one-one .row .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+.alkamelt-css-one-one .row .row-copirayt {
+  word-break: break-word;
+  width: 100%;
+}
+
+.alkamelt-css-one-one .row .row-copirayt p {
+  width: 100%;
+}
+
+.alkamelt-css-one-one .row .alkamelt-text {
+  text-align: center;
+}
+
+.alkamelt-css-one-two {
+  z-index: 1000;
+  width: 100%;
+}
+
+.alkamelt-css-one-two nav.alkamelt-navbar {
+  position: fixed;
+}
+
+.alkamelt-css-one-two .dropdown-item:before {
+  font-family: 'Roboto Condensed', Arial, sans-serif !important;
+  content: "\e966";
+  display: inline-block;
+  width: 0;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  transform: scale(0, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-one-two .dropdown-menu {
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alkamelt-css-one-two .dropdown-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.alkamelt-css-one-two .dropdown-item:hover,
+.alkamelt-css-one-two .dropdown-item:focus {
+  background: #6592e6 !important;
+  color: white !important;
+}
+
+.alkamelt-css-one-two .dropdown-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.alkamelt-css-one-two .dropdown-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.alkamelt-css-one-two .nav-dropdown .link {
+  padding: 0 0.3em !important;
+  margin: 0.667em 1em !important;
+}
+
+.alkamelt-css-one-two .nav-dropdown .link.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.alkamelt-css-one-two .nav-link {
+  position: relative;
+}
+
+.alkamelt-css-one-two .alkamelt-container {
+  display: flex;
+  margin: auto;
+}
+
+.alkamelt-css-one-two .iconfont-wrapper {
+  color: #000000 !important;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.alkamelt-css-one-two .dropdown-menu,
+.alkamelt-css-one-two .alkamelt-navbar.opened {
+  background: #C4693F !important;
+}
+
+.alkamelt-css-one-two .nav-item:focus,
+.alkamelt-css-one-two .nav-link:focus {
+  outline: none;
+}
+
+.alkamelt-css-one-two .dropdown .dropdown-menu .dropdown-item {
+  width: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-one-two .dropdown .dropdown-menu .dropdown-item::after {
+  right: 0.5rem;
+}
+
+.alkamelt-css-one-two .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+}
+
+.alkamelt-css-one-two .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont:before {
+  display: inline-block;
+  transform: scale(1, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-one-two .collapsed .dropdown-menu .dropdown-item:before {
+  display: none;
+}
+
+.alkamelt-css-one-two .collapsed .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.235em 1.5em 0.235em 1.5em !important;
+  transition: none;
+  margin: 0 !important;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar {
+  min-height: 70px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  position: absolute;
+  background: #C4693F;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.opened {
+  transition: all 0.3s;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar .dropdown-item {
+  padding: 0.5rem 1.8rem;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar .alkamelt-navbar-logo img {
+  width: auto;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar .alkamelt-navbar-collapse {
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed {
+  justify-content: center;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed.opened .dropdown-menu {
+  top: 0;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed .dropdown-menu .dropdown-submenu {
+  left: 0 !important;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item:after {
+  right: auto;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+  border-bottom: 0;
+  top: 41%;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed ul.alkamelt-navbar-nav li {
+  margin: auto;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
+  text-align: center;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.collapsed .icons-menu {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-css-one-two .alkamelt-navbar .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar.opened .dropdown-menu {
+    top: 0;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .dropdown-menu .dropdown-submenu {
+    left: 0 !important;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .dropdown-menu .dropdown-item:after {
+    right: auto;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+    top: 40%;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .alkamelt-navbar-logo img {
+    height: 3rem !important;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar ul.alkamelt-navbar-nav li {
+    margin: auto;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1.5rem !important;
+    text-align: center;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .alkamelt-navbar-brand {
+    flex-shrink: initial;
+    flex-basis: auto;
+    word-break: break-word;
+    padding-right: 2rem;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .alkamelt-navbar-toggler {
+    flex-basis: auto;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar .icons-menu {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.alkamelt-navbar-short {
+  min-height: 60px;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-logo img {
+  height: 2.5rem !important;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-brand {
+  min-height: 60px;
+  padding: 0;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar-brand {
+  min-height: 70px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+  word-break: break-word;
+  z-index: 1;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar-brand .alkamelt-caption {
+  line-height: inherit !important;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar-brand .alkamelt-navbar-logo a {
+  outline: none;
+}
+
+.alkamelt-css-one-two .dropdown-item.active,
+.alkamelt-css-one-two .dropdown-item:active {
+  background-color: transparent;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar-expand-lg .alkamelt-navbar-nav .nav-link {
+  padding: 0;
+}
+
+.alkamelt-css-one-two .nav-dropdown .link.dropdown-toggle {
+  margin-right: 1.667em;
+}
+
+.alkamelt-css-one-two .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+  margin-right: 0;
+  padding: 0.667em 1.667em;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu {
+  background: #C4693F;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+  margin: 0;
+  left: 100%;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar .dropdown.open>.dropdown-menu {
+  display: block;
+}
+
+.alkamelt-css-one-two ul.alkamelt-navbar-nav {
+  flex-wrap: wrap;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar-buttons {
+  text-align: center;
+  min-width: 170px;
+}
+
+.alkamelt-css-one-two button.alkamelt-navbar-toggler {
+  outline: none;
+  width: 31px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  align-self: center;
+}
+
+.alkamelt-css-one-two button.alkamelt-navbar-toggler .alkamelt-hamburger span {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-right: 5px;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-one-two button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(1) {
+  top: 0;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-two button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(2) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-css-one-two button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(3) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-css-one-two button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(4) {
+  top: 16px;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-two nav.opened .alkamelt-hamburger span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-two nav.opened .alkamelt-hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-css-one-two nav.opened .alkamelt-hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-css-one-two nav.opened .alkamelt-hamburger span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-two .alkamelt-navbar-dropdown {
+  padding: 0 1rem;
+  position: fixed;
+}
+
+.alkamelt-css-one-two a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkamelt-css-one-two .icons-menu {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .alkamelt-css-one-two .alkamelt-navbar {
+    height: 70px;
+  }
+
+  .alkamelt-css-one-two .alkamelt-navbar.opened {
+    height: auto;
+  }
+
+  .alkamelt-css-one-two .nav-item .nav-link:hover::before {
+    width: 175%;
+    max-width: calc(100% + 2rem);
+    left: -1rem;
+  }
+}
+
+.alkamelt-css-one-three {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-one-three .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-css-one-three .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-css-one-three .alkamelt-section-title {
+  text-align: left;
+}
+
+.alkamelt-css-one-three .alkamelt-section-subtitle {
+  text-align: left;
+}
+
+.alkamelt-css-one-four {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #353535;
+}
+
+.alkamelt-css-one-four .row-links {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-one-four .social-row {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-one-four .row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alkamelt-css-one-four .row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.alkamelt-css-one-four .row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.alkamelt-css-one-four .row .foot-menu li p {
+  margin: 0;
+}
+
+.alkamelt-css-one-four .row .social-list {
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.alkamelt-css-one-four .row .social-list .alkamelt-iconfont-social {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.alkamelt-css-one-four .row .social-list .soc-item {
+  margin: 0 .5rem;
+}
+
+.alkamelt-css-one-four .row .social-list a {
+  margin: 0;
+  opacity: .5;
+  transition: .2s linear;
+}
+
+.alkamelt-css-one-four .row .social-list a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-css-one-four .row .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+.alkamelt-css-one-four .row .row-copirayt {
+  word-break: break-word;
+  width: 100%;
+}
+
+.alkamelt-css-one-four .row .row-copirayt p {
+  width: 100%;
+}
+
+.alkamelt-css-one-four .row .alkamelt-text {
+  text-align: center;
+}
+
+.alkamelt-css-one-five {
+  z-index: 1000;
+  width: 100%;
+}
+
+.alkamelt-css-one-five nav.alkamelt-navbar {
+  position: fixed;
+}
+
+.alkamelt-css-one-five .dropdown-item:before {
+  font-family: 'Roboto Condensed', Arial, sans-serif !important;
+  content: "\e966";
+  display: inline-block;
+  width: 0;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  transform: scale(0, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-one-five .dropdown-menu {
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alkamelt-css-one-five .dropdown-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.alkamelt-css-one-five .dropdown-item:hover,
+.alkamelt-css-one-five .dropdown-item:focus {
+  background: #6592e6 !important;
+  color: white !important;
+}
+
+.alkamelt-css-one-five .dropdown-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.alkamelt-css-one-five .dropdown-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.alkamelt-css-one-five .nav-dropdown .link {
+  padding: 0 0.3em !important;
+  margin: 0.667em 1em !important;
+}
+
+.alkamelt-css-one-five .nav-dropdown .link.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.alkamelt-css-one-five .nav-link {
+  position: relative;
+}
+
+.alkamelt-css-one-five .alkamelt-container {
+  display: flex;
+  margin: auto;
+}
+
+.alkamelt-css-one-five .iconfont-wrapper {
+  color: #000000 !important;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.alkamelt-css-one-five .dropdown-menu,
+.alkamelt-css-one-five .alkamelt-navbar.opened {
+  background: #C4693F !important;
+}
+
+.alkamelt-css-one-five .nav-item:focus,
+.alkamelt-css-one-five .nav-link:focus {
+  outline: none;
+}
+
+.alkamelt-css-one-five .dropdown .dropdown-menu .dropdown-item {
+  width: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-one-five .dropdown .dropdown-menu .dropdown-item::after {
+  right: 0.5rem;
+}
+
+.alkamelt-css-one-five .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+}
+
+.alkamelt-css-one-five .dropdown .dropdown-menu .dropdown-item .alkamelt-iconfont:before {
+  display: inline-block;
+  transform: scale(1, 1);
+  transition: all 0.25s ease-in-out;
+}
+
+.alkamelt-css-one-five .collapsed .dropdown-menu .dropdown-item:before {
+  display: none;
+}
+
+.alkamelt-css-one-five .collapsed .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.235em 1.5em 0.235em 1.5em !important;
+  transition: none;
+  margin: 0 !important;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar {
+  min-height: 70px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  position: absolute;
+  background: #C4693F;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.opened {
+  transition: all 0.3s;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar .dropdown-item {
+  padding: 0.5rem 1.8rem;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar .alkamelt-navbar-logo img {
+  width: auto;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar .alkamelt-navbar-collapse {
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed {
+  justify-content: center;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed.opened .dropdown-menu {
+  top: 0;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed .dropdown-menu .dropdown-submenu {
+  left: 0 !important;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item:after {
+  right: auto;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+  border-bottom: 0;
+  top: 41%;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed ul.alkamelt-navbar-nav li {
+  margin: auto;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed .dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
+  text-align: center;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.collapsed .icons-menu {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .alkamelt-css-one-five .alkamelt-navbar .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar.opened .dropdown-menu {
+    top: 0;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .dropdown-menu .dropdown-submenu {
+    left: 0 !important;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .dropdown-menu .dropdown-item:after {
+    right: auto;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+    top: 40%;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .alkamelt-navbar-logo img {
+    height: 3rem !important;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar ul.alkamelt-navbar-nav li {
+    margin: auto;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1.5rem !important;
+    text-align: center;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .alkamelt-navbar-brand {
+    flex-shrink: initial;
+    flex-basis: auto;
+    word-break: break-word;
+    padding-right: 2rem;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .alkamelt-navbar-toggler {
+    flex-basis: auto;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar .icons-menu {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.alkamelt-navbar-short {
+  min-height: 60px;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-logo img {
+  height: 2.5rem !important;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.alkamelt-navbar-short .alkamelt-navbar-brand {
+  min-height: 60px;
+  padding: 0;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar-brand {
+  min-height: 70px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+  word-break: break-word;
+  z-index: 1;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar-brand .alkamelt-caption {
+  line-height: inherit !important;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar-brand .alkamelt-navbar-logo a {
+  outline: none;
+}
+
+.alkamelt-css-one-five .dropdown-item.active,
+.alkamelt-css-one-five .dropdown-item:active {
+  background-color: transparent;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar-expand-lg .alkamelt-navbar-nav .nav-link {
+  padding: 0;
+}
+
+.alkamelt-css-one-five .nav-dropdown .link.dropdown-toggle {
+  margin-right: 1.667em;
+}
+
+.alkamelt-css-one-five .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+  margin-right: 0;
+  padding: 0.667em 1.667em;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu {
+  background: #C4693F;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar.alkamelt-navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+  margin: 0;
+  left: 100%;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar .dropdown.open>.dropdown-menu {
+  display: block;
+}
+
+.alkamelt-css-one-five ul.alkamelt-navbar-nav {
+  flex-wrap: wrap;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar-buttons {
+  text-align: center;
+  min-width: 170px;
+}
+
+.alkamelt-css-one-five button.alkamelt-navbar-toggler {
+  outline: none;
+  width: 31px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  align-self: center;
+}
+
+.alkamelt-css-one-five button.alkamelt-navbar-toggler .alkamelt-hamburger span {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-right: 5px;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-one-five button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(1) {
+  top: 0;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-five button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(2) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-css-one-five button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(3) {
+  top: 8px;
+  transition: all 0.15s;
+}
+
+.alkamelt-css-one-five button.alkamelt-navbar-toggler .alkamelt-hamburger span:nth-child(4) {
+  top: 16px;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-five nav.opened .alkamelt-hamburger span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-five nav.opened .alkamelt-hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-css-one-five nav.opened .alkamelt-hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 0.25s;
+}
+
+.alkamelt-css-one-five nav.opened .alkamelt-hamburger span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+
+.alkamelt-css-one-five .alkamelt-navbar-dropdown {
+  padding: 0 1rem;
+  position: fixed;
+}
+
+.alkamelt-css-one-five a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkamelt-css-one-five .icons-menu {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .alkamelt-css-one-five .alkamelt-navbar {
+    height: 70px;
+  }
+
+  .alkamelt-css-one-five .alkamelt-navbar.opened {
+    height: auto;
+  }
+
+  .alkamelt-css-one-five .nav-item .nav-link:hover::before {
+    width: 175%;
+    max-width: calc(100% + 2rem);
+    left: -1rem;
+  }
+}
+
+.alkamelt-css-one-six {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.alkamelt-css-one-six .alkamelt-fallback-image.disabled {
+  display: none;
+}
+
+.alkamelt-css-one-six .alkamelt-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.alkamelt-css-one-six .alkamelt-section-title {
+  text-align: left;
+}
+
+.alkamelt-css-one-six .alkamelt-section-subtitle {
+  text-align: left;
+}
+
+.alkamelt-css-one-seven {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #353535;
+}
+
+.alkamelt-css-one-seven .row-links {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-one-seven .social-row {
+  width: 100%;
+  justify-content: center;
+}
+
+.alkamelt-css-one-seven .row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alkamelt-css-one-seven .row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.alkamelt-css-one-seven .row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.alkamelt-css-one-seven .row .foot-menu li p {
+  margin: 0;
+}
+
+.alkamelt-css-one-seven .row .social-list {
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.alkamelt-css-one-seven .row .social-list .alkamelt-iconfont-social {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.alkamelt-css-one-seven .row .social-list .soc-item {
+  margin: 0 .5rem;
+}
+
+.alkamelt-css-one-seven .row .social-list a {
+  margin: 0;
+  opacity: .5;
+  transition: .2s linear;
+}
+
+.alkamelt-css-one-seven .row .social-list a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .alkamelt-css-one-seven .row .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+.alkamelt-css-one-seven .row .row-copirayt {
+  word-break: break-word;
+  width: 100%;
+}
+
+.alkamelt-css-one-seven .row .row-copirayt p {
+  width: 100%;
+}
+
+.alkamelt-css-one-seven .row .alkamelt-text {
+  text-align: center;
+}
